@@ -60,6 +60,7 @@ If you see an error after installing using the first option, pass the flag `--ig
 ```shell
 npx --ignore-existing react-native init MyApp --template=@echobind/react-native-template
 ```
+**NOTE:** If you recieve this error it can be related to react-native-cli version. You no longer need to have the cli installed when using npx. Trying removing global installs of react-native-cli for a better experience
 
 ## About The Project
 
