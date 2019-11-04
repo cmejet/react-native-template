@@ -86,7 +86,7 @@ async function setup() {
   console.log('\n🗑  Removing cruft...');
   deleteFile('../.flowconfig');
   deleteFile('../App.js');
-  deleteFile('../.gitattributes'); // not sure why this is here?
+  // deleteFile('../.gitattributes'); // not sure why this is here?
   execSync('rm -rf setup', { cwd: rootDirectory });
   execSync('rm -rf .git', { cwd: rootDirectory }); // blow away old repo if there
 
